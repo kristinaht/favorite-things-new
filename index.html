@@ -11,6 +11,49 @@
     <title>Favorite Things</title>
 </head>
 <body>
-    
+  <h1>Favorite Things</h1>
+  <div class="container">
+      <h2>Let's get to know your favorite things togther!</h2>
+      <form>
+        <p>Which kind of car do you like?</p>
+        <select class="form-control" id="cars">
+            <option value="Honda">Honda</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+  
+        <p>What is your favorite dish?</p>
+        <select class="form-control" id="food">
+            <option value="Seafood">Seafood </option>
+            <option value="Pizza">Pizza</option>
+            <option value="Pasta">Pasta</option>
+        </select>
+  
+        <p>What is your favorite City?</p>
+        <select class="form-control" id="cities">
+            <option value="Portland">Portland</option>
+            <option value="Belgrade">Belgrade</option>
+            <option value="Cairo">Cairo</option>
+        </select>
+  
+        <button type="submit" class="btn-default">Submit your answer</button>
+      </form>
+  
+      <div id="result">
+
+
+        <!-- <p> You told us you like <span id="carSelected"></span></p>
+        <p> You told us you like <span id="foodSelected"></span></p>
+        <p> You told us you like <span id="citySelected"></span></p>
+         -->
+         
+         <ul>
+           <li>You told us you like: <span id="carSelected"></span> </li>
+           <li>You told us you like: <span id="foodSelected"></span> </li>
+           <li>You told us you like <span id="citySelected"></span></li>
+        </ul>
+      </div>
+
+    </div>
 </body>
 </html>
